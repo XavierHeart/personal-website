@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import type React from "react";
 
-import { Icons } from "@/components/icons";
 import AwardsSection from "@/components/portfolio/awards-section";
 import Brief from "@/components/portfolio/brief";
 import Contact from "@/components/portfolio/contact";
@@ -225,7 +224,6 @@ export default async function Page(props: {
                   icon: getIconComponent(link.icon),
                 })),
               }))}
-              delay={BLUR_FADE_DELAY * 3}
               mobileDisplayCount={4}
               desktopDisplayCount={3}
             />
@@ -255,7 +253,6 @@ export default async function Page(props: {
                   icon: getIconComponent(link.icon),
                 })),
               }))}
-              delay={BLUR_FADE_DELAY * 3}
               mobileDisplayCount={6}
               desktopDisplayCount={6}
               showAllText={t("showAll")}

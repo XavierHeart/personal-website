@@ -16,13 +16,12 @@ interface Talk {
 
 interface TalksProps {
   talks: readonly Talk[];
-  delay?: number;
   showAllText?: string;
 }
 
 const DEFAULT_DISPLAY_COUNT = 5;
 
-export default function Talks({ talks, delay = 0, showAllText = "Show All" }: TalksProps) {
+export default function Talks({ talks, showAllText = "Show All" }: TalksProps) {
   const [showAll, setShowAll] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -30,21 +29,21 @@ export default function Talks({ talks, delay = 0, showAllText = "Show All" }: Ta
     setMounted(true);
   }, []);
 
-  // Sort talks by date (newest first)
+  // 按日期从新到旧排序
   const sortedTalks = [...talks].sort((a, b) => {
-    // Convert "YYYY.MM" format to comparable values
+    // 将 "YYYY.MM" 格式转换为可比较的字符串
     const dateA = a.date.replace(".", "");
     const dateB = b.date.replace(".", "");
     return dateB.localeCompare(dateA);
   });
 
-  // Show latest items by default, or all if showAll is true
+  // 默认展示最新条目，展开后展示全部
   const displayedTalks = showAll
     ? sortedTalks
     : sortedTalks.slice(0, DEFAULT_DISPLAY_COUNT);
   const hasMoreTalks = sortedTalks.length > DEFAULT_DISPLAY_COUNT;
 
-  // Prevent hydration mismatch by not rendering until mounted
+  // 挂载前不渲染动态内容，避免 hydration 不一致
   if (!mounted) {
     return (
       <div className="flex min-h-0 flex-col gap-y-3">
