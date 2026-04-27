@@ -17,7 +17,7 @@
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "lint": "eslint .",
     "analyze": "ANALYZE=true next build",
-    "fix": "pnpm i -D fix-react2shell-next@latest && npx fix-react2shell-next"
+    "fix": "npm install -D fix-react2shell-next@latest && npx fix-react2shell-next"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.1",
@@ -88,19 +88,5 @@
   },
   "engines": {
     "node": ">=18.18.0 <=22"
-  },
-  "pnpm": {
-    "overrides": {
-      "jws": "4.0.1",
-      "js-yaml": "3.14.2"
-    },
-    "ignoredBuiltDependencies": [
-      "@parcel/watcher",
-      "@swc/core",
-      "@vercel/speed-insights",
-      "protobufjs",
-      "sharp",
-      "unrs-resolver"
-    ]
   }
 }
