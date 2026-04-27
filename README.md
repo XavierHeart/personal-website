@@ -1,16 +1,37 @@
-# personal-website
+# Junjie Wu Personal Website
 
-Personal academic website for Junjie Wu.
+This repository hosts the source code for Junjie Wu's personal academic website. The site presents research interests, publications, education, research experience, academic service, and selected project work.
 
-## Development
+## Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- next-intl
+
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
+The development server starts at `http://localhost:3000`.
+
 ## Build
 
 ```bash
 npm run build
 ```
+
+## Project Structure
+
+- `src/i18n/messages/`: bilingual profile, publication, and section content
+- `src/app/[locale]/`: localized page routes and layout
+- `src/data/site.ts`: global site metadata
+- `public/`: static assets, including avatar and resume PDF
+
+## Deployment
+
+The project can be deployed directly on Vercel or any platform that supports Next.js.
