@@ -1,0 +1,206 @@
+{
+  "news": {
+    "items": [
+      {
+        "date": "2026.01",
+        "title": "GDT-VLM 被 ICMR 2026 接收",
+        "content": "关于高效 MLLM 视觉 token 压缩的全局分布建模工作被 ACM ICMR 2026 接收。"
+      },
+      {
+        "date": "2025.06",
+        "title": "DALIP 被 ICCV 2025 接收",
+        "content": "关于垂类数据的分布对齐视觉语言预训练工作被 ICCV 2025 接收。"
+      },
+      {
+        "date": "2025.01",
+        "title": "AFBO 被 ICLR 2025 接收",
+        "content": "关于 Vision Transformer 非对称分解双线性操作的工作被 ICLR 2025 接收。"
+      }
+    ]
+  },
+  "projects": {
+    "items": []
+  },
+  "publications": {
+    "items": [
+      {
+        "title": "Asymmetric Factorized Bilinear Operation for Vision Transformer",
+        "href": "https://openreview.net/forum?id=MJyqwBVgMs",
+        "dates": "ICLR 2025",
+        "active": true,
+        "description": "面向 Vision Transformer 的高阶视觉表征方法，使用非对称分解双线性操作和结构化稀疏通道映射。",
+        "technologies": [
+          "ViT",
+          "表征学习"
+        ],
+        "authors": "**作者：** **Junjie Wu**, Qilong Wang†, Jiangtao Xie, Pengfei Zhu, Qinghua Hu",
+        "links": [
+          {
+            "type": "Paper",
+            "href": "https://openreview.net/forum?id=MJyqwBVgMs",
+            "icon": "paper"
+          }
+        ],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "Distribution Alignment-based Language-Image Pre-Training for Domain-Specific Data",
+        "href": "https://arxiv.org/abs/2504.01386",
+        "dates": "ICCV 2025",
+        "active": true,
+        "description": "面向垂类数据的视觉语言预训练方法，通过图文特征分布对齐和二阶 token 统计建模提升垂类表示。",
+        "technologies": [
+          "VLP",
+          "垂类预训练"
+        ],
+        "authors": "**作者：** **Junjie Wu***, Jiangtao Xie*, Zhaolin Zhang, Qilong Wang†, Qinghua Hu, Peihua Li, Sen Xu",
+        "links": [
+          {
+            "type": "Paper",
+            "href": "https://arxiv.org/abs/2504.01386",
+            "icon": "paper"
+          }
+        ],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "Effective Visual Token Aggregation for Improving ViT Classification",
+        "href": "",
+        "dates": "IVC 2026",
+        "active": true,
+        "description": "通过交叉协方差 token pooling 改善 ViT 分类效果的视觉 token 聚合研究。",
+        "technologies": [
+          "ViT",
+          "Token 聚合"
+        ],
+        "authors": "**作者：** Jiangtao Xie*, Zhaolin Zhang*, Ruiren Zeng*, **Junjie Wu**, Qilong Wang, Peihua Li†",
+        "links": [],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "GDT-VLM: Global Distribution Modeling for Visual Token Compression in Efficient MLLMs",
+        "href": "",
+        "dates": "ICMR 2026",
+        "active": true,
+        "description": "面向高效 MLLM 的视觉 token 压缩方法，在极低 token 预算下保留全局视觉分布信息。",
+        "technologies": [
+          "MLLM",
+          "Token 压缩"
+        ],
+        "authors": "**作者：** Jiangtao Xie*, **Junjie Wu***, Zhaolin Zhang, Qilong Wang, Peihua Li†",
+        "links": [],
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "school": "天津大学（TJU）",
+        "href": "",
+        "degree": "电子信息硕士，GPA: 3.8/4.0",
+        "logoUrl": "",
+        "start": "2023",
+        "end": "2026"
+      },
+      {
+        "school": "天津大学（TJU）",
+        "href": "",
+        "degree": "计算机科学与技术学士，GPA: 3.7/4.0，前 15%",
+        "logoUrl": "",
+        "start": "2019",
+        "end": "2023"
+      }
+    ]
+  },
+  "work": {
+    "items": [
+      {
+        "company": "天津大学（TJU）",
+        "href": "",
+        "badges": [],
+        "location": "中国天津",
+        "title": "硕士研究生，机器学习与数据挖掘实验室",
+        "logoUrl": "",
+        "start": "2023",
+        "end": "2026",
+        "description": "导师为王齐龙教授。研究方向包括 ViT 高阶视觉表征、垂类视觉语言预训练，以及面向 ViT 和 MLLM 的高效视觉 token 聚合与压缩。"
+      },
+      {
+        "company": "加州大学圣地亚哥分校（UCSD）",
+        "href": "https://ucsd.edu/",
+        "badges": [],
+        "location": "美国圣地亚哥",
+        "title": "暑期科研实习生",
+        "logoUrl": "",
+        "start": "2023.06",
+        "end": "2023.10",
+        "description": "与 Pengtao Xie 教授合作，开展 mRNA 基因注释基础模型和胸部 X 光表征学习相关研究。"
+      },
+      {
+        "company": "Glority（杭州睿琪软件有限公司）",
+        "href": "",
+        "badges": [],
+        "location": "中国杭州",
+        "title": "算法研究员",
+        "logoUrl": "",
+        "start": "2024.05",
+        "end": "至今",
+        "description": "构建面向低资源应用的垂类多模态数据与模型管线，包括数据构造、监督微调、偏好优化、RAG、评估和 vLLM 部署。"
+      }
+    ]
+  },
+  "awards": {
+    "items": [
+      {
+        "year": 2023,
+        "title": "推荐免试研究生"
+      },
+      {
+        "year": 2023,
+        "title": "华为奖学金，前 1%"
+      },
+      {
+        "year": 2023,
+        "title": "天津大学优秀毕业生"
+      },
+      {
+        "year": 2022,
+        "title": "中国国际“互联网+”大学生创新创业大赛银奖"
+      }
+    ]
+  },
+  "invitedTalks": {
+    "items": []
+  },
+  "teaching": {
+    "items": []
+  },
+  "skills": [],
+  "reviewerConferences": [
+    "NeurIPS 2026"
+  ],
+  "reviewerJournals": [],
+  "social": {
+    "GoogleScholar": {
+      "name": "谷歌学术",
+      "url": "#",
+      "icon": "googlescholar",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    },
+    "email": {
+      "name": "邮箱",
+      "url": "mailto:wjj_@tju.edu.cn",
+      "icon": "email",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    }
+  }
+}

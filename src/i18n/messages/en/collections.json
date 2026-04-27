@@ -1,0 +1,206 @@
+{
+  "news": {
+    "items": [
+      {
+        "date": "2026.01",
+        "title": "GDT-VLM accepted to ICMR 2026",
+        "content": "Our work on global distribution modeling for visual token compression in efficient MLLMs was accepted to ACM ICMR 2026."
+      },
+      {
+        "date": "2025.06",
+        "title": "DALIP accepted to ICCV 2025",
+        "content": "Our work on distribution alignment-based language-image pre-training for domain-specific data was accepted to ICCV 2025."
+      },
+      {
+        "date": "2025.01",
+        "title": "AFBO accepted to ICLR 2025",
+        "content": "Our work on asymmetric factorized bilinear operations for Vision Transformers was accepted to ICLR 2025."
+      }
+    ]
+  },
+  "projects": {
+    "items": []
+  },
+  "publications": {
+    "items": [
+      {
+        "title": "Asymmetric Factorized Bilinear Operation for Vision Transformer",
+        "href": "https://openreview.net/forum?id=MJyqwBVgMs",
+        "dates": "ICLR 2025",
+        "active": true,
+        "description": "A higher-order visual representation method for Vision Transformers using asymmetric factorized bilinear operations and structured sparse channel mappings.",
+        "technologies": [
+          "ViT",
+          "Representation Learning"
+        ],
+        "authors": "**Authors:** **Junjie Wu**, Qilong Wang†, Jiangtao Xie, Pengfei Zhu, Qinghua Hu",
+        "links": [
+          {
+            "type": "Paper",
+            "href": "https://openreview.net/forum?id=MJyqwBVgMs",
+            "icon": "paper"
+          }
+        ],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "Distribution Alignment-based Language-Image Pre-Training for Domain-Specific Data",
+        "href": "https://arxiv.org/abs/2504.01386",
+        "dates": "ICCV 2025",
+        "active": true,
+        "description": "A domain-specific vision-language pre-training method that aligns image-text feature distributions and models second-order token statistics.",
+        "technologies": [
+          "VLP",
+          "Domain Adaptation"
+        ],
+        "authors": "**Authors:** **Junjie Wu***, Jiangtao Xie*, Zhaolin Zhang, Qilong Wang†, Qinghua Hu, Peihua Li, Sen Xu",
+        "links": [
+          {
+            "type": "Paper",
+            "href": "https://arxiv.org/abs/2504.01386",
+            "icon": "paper"
+          }
+        ],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "Effective Visual Token Aggregation for Improving ViT Classification",
+        "href": "",
+        "dates": "IVC 2026",
+        "active": true,
+        "description": "A visual token aggregation study for improving ViT classification through cross-covariance token pooling.",
+        "technologies": [
+          "ViT",
+          "Token Aggregation"
+        ],
+        "authors": "**Authors:** Jiangtao Xie*, Zhaolin Zhang*, Ruiren Zeng*, **Junjie Wu**, Qilong Wang, Peihua Li†",
+        "links": [],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "GDT-VLM: Global Distribution Modeling for Visual Token Compression in Efficient MLLMs",
+        "href": "",
+        "dates": "ICMR 2026",
+        "active": true,
+        "description": "A visual token compression method for efficient MLLMs that preserves global visual distribution information under severe token budgets.",
+        "technologies": [
+          "MLLM",
+          "Token Compression"
+        ],
+        "authors": "**Authors:** Jiangtao Xie*, **Junjie Wu***, Zhaolin Zhang, Qilong Wang, Peihua Li†",
+        "links": [],
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "school": "Tianjin University (TJU)",
+        "href": "",
+        "degree": "M.Eng. in Electronic Information, GPA: 3.8/4.0",
+        "logoUrl": "",
+        "start": "2023",
+        "end": "2026"
+      },
+      {
+        "school": "Tianjin University (TJU)",
+        "href": "",
+        "degree": "B.Eng. in Computer Science and Technology, GPA: 3.7/4.0, top 15%",
+        "logoUrl": "",
+        "start": "2019",
+        "end": "2023"
+      }
+    ]
+  },
+  "work": {
+    "items": [
+      {
+        "company": "Tianjin University (TJU)",
+        "href": "",
+        "badges": [],
+        "location": "Tianjin, China",
+        "title": "Graduate Researcher, Machine Learning and Data Mining Laboratory",
+        "logoUrl": "",
+        "start": "2023",
+        "end": "2026",
+        "description": "Advised by Prof. Qilong Wang. Developed higher-order visual representations for ViTs, domain-specific vision-language pre-training methods, and efficient visual token aggregation/compression methods for ViTs and MLLMs."
+      },
+      {
+        "company": "University of California San Diego (UCSD)",
+        "href": "https://ucsd.edu/",
+        "badges": [],
+        "location": "San Diego, CA",
+        "title": "Summer Research Intern",
+        "logoUrl": "",
+        "start": "Jun. 2023",
+        "end": "Oct. 2023",
+        "description": "Collaborated with Prof. Pengtao Xie on foundation models for mRNA gene annotation and chest X-ray representation learning."
+      },
+      {
+        "company": "Glority",
+        "href": "",
+        "badges": [],
+        "location": "Hangzhou, China",
+        "title": "Algorithm Researcher",
+        "logoUrl": "",
+        "start": "May 2024",
+        "end": "Present",
+        "description": "Built domain-specific multimodal data and model pipelines for low-resource applications, including data construction, supervised fine-tuning, preference optimization, RAG, evaluation, and vLLM deployment."
+      }
+    ]
+  },
+  "awards": {
+    "items": [
+      {
+        "year": 2023,
+        "title": "Recommended admission to graduate school"
+      },
+      {
+        "year": 2023,
+        "title": "Huawei Scholarship, top 1%"
+      },
+      {
+        "year": 2023,
+        "title": "Outstanding Graduate, Tianjin University"
+      },
+      {
+        "year": 2022,
+        "title": "Silver Award, China International Internet+ Innovation and Entrepreneurship Competition"
+      }
+    ]
+  },
+  "invitedTalks": {
+    "items": []
+  },
+  "teaching": {
+    "items": []
+  },
+  "skills": [],
+  "reviewerConferences": [
+    "NeurIPS 2026"
+  ],
+  "reviewerJournals": [],
+  "social": {
+    "GoogleScholar": {
+      "name": "Google Scholar",
+      "url": "#",
+      "icon": "googlescholar",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    },
+    "email": {
+      "name": "Email",
+      "url": "mailto:wjj_@tju.edu.cn",
+      "icon": "email",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    }
+  }
+}
