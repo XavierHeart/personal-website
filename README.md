@@ -41,6 +41,8 @@ For Cloudflare dashboard deployment from GitHub, use:
 - Runtime compatibility flag: `nodejs_compat`
 - Compatibility date: `2024-09-23` or later
 
+The deploy scripts build the OpenNext bundle first and then deploy the generated Worker directly with Wrangler. This avoids Wrangler's automatic framework detection re-entering the OpenNext deploy wrapper in environments where it can fail with `EPIPE`.
+
 ## Project Structure
 
 - `src/i18n/messages/`: bilingual profile, publication, and section content
